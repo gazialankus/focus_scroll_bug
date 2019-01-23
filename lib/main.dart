@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
 
     _focusNode.addListener(() {
       if (_focusNode.hasFocus) {
-//        _textEditingController.selection = TextSelection(baseOffset: 0, extentOffset: _textEditingController.text.length);
+        _textEditingController.selection = TextSelection(baseOffset: 0, extentOffset: _textEditingController.text.length);
       }
     });
   }
